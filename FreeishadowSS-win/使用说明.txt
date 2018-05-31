@@ -1,0 +1,7 @@
+本程序基于python3.6，采用pyinstall打包安装制作而成，方便没有安装python环境的用户。
+运行主程序SS.exe后会自动抓取https://my.ishadowx.net的免费SS并生成配置文件gui-config.json
+配置文件保存在D盘根目录下，把它丢到SSR客户端文件夹下就可以使用啦！
+ishadow的免费SS六小时更新一次。
+
+By 21grams
+qq2663797538@gmail.com

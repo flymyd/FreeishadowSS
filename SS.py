@@ -32,7 +32,10 @@ for i in range(60):
         configs_dict.append({'server':info[i]})
     elif 'Port' in info[i]:
         info[i]=re.sub("Port:", "", info[i])
-        configs_dict.append({'server_port':int(info[i])})
+        if info[i]!='':
+            configs_dict.append({'server_port': int(info[i])})
+        else:
+            configs_dict.append({'server_port': info[i]})
     elif 'Password' in info[i]:
         info[i]=re.sub("Password:", "",info[i])
         configs_dict.append({'password':info[i]})
